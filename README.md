@@ -11,9 +11,10 @@
 - Read Lock - one can only read. No modify or delete.
 
 # Remember that locks applied at the Resource Group level will be inherited by the resources
+# Locks applied at the subscription level will also be inherited down.
 
 # Use Cases:
-- Admins can lock their resources via Blueprints
+- Admins can apply resource locks to across multiple subscriptions and lock their resources via Blueprints
 
 
 # Before, we assigned a Blueprint to create a resource group without a lock
