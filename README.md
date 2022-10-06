@@ -10,8 +10,9 @@
 - Delete Lock - one can read and modify the resource but cannot delete
 - Read Lock - one can only read. No modify or delete.
 
-# Remember that locks applied at the Resource Group level will be inherited by the resources
-# Locks applied at the subscription level will also be inherited down.
+# Important reminders:
+- Remember that locks applied at the Resource Group level will be inherited by the resources
+- Locks applied at the subscription level will also be inherited down.
 
 # Use Cases:
 - Admins can apply resource locks to across multiple subscriptions and lock their resources via Blueprints
